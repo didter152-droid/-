@@ -172,9 +172,21 @@ const tracks = [
   {name:'Dhaker Taley', artist:'Traditional • Community Archive', dur:'3:12', src:'sounds/dhaker-taley.mp3', cat:'Dhak', thumb:'sounds/thumbs/dhaker-taley.jpg', list:'durga'},
   {name:'elo je Maa', artist:'Field Recording', dur:'4:00', src:'sounds/elo-je-maa.mp3', cat:'Traditional Songs', thumb:'sounds/thumbs/elo-je-maa.jpg', list:'durga'},
   {name:'Amar DUGGA', artist:'Temple Recording', dur:'3:45', src:'sounds/amar_dugga.mp3', cat:'Traditional Songs', thumb:'sounds/thumbs/amar_dugga.jpg', list:'durga'},
-  {name:'Sandhya Aarti', artist:'Traditional', dur:'9:00', src:'sounds/sandhya-aarti.mp3', cat:'Aarti', thumb:'sounds/thumbs/sandhya-aarti.jpg', list:'durga'},
+  {name:'Bolo Durga', artist:'Temple Recording', dur:'3:45', src:'sounds/BoloD.mp3', cat:'Traditional Songs', thumb:'sounds/thumbs/bolo-durga.jpg', list:'durga'},
+  {name:'Dugga Elo', artist:'Traditional', dur:'2:30', src:'sounds/duggaelo.mp3', cat:'Aarti', thumb:'sounds/thumbs/duggaelo.jpg', list:'durga'},
+  {name:'Ostami Tomar Parai', artist:'All India Radio', dur:'3:51', src:'sounds/OstamiTomarParai.mp3', cat:'Mahalaya', thumb:'sounds/thumbs/ostami.jpg', list:'durga'},
+  {name:'Devi Sajer Gaan', artist:'Joy', dur:'3:33', src:'sounds/DebiSajerGan.mp3', cat:'Mahalaya', thumb:'sounds/thumbs/devisajer.jpg', list:'durga'},
+  {name:'Esho Nobo Rupe', artist:'All India Radio', dur:'4:22', src:'sounds/EshoNoboRupe.mp3', cat:'Mahalaya', thumb:'sounds/thumbs/EshoNoboRupe.jpg', list:'durga'},
+  {name:'Esheche Maa Durga', artist:'All India Radio', dur:'2:08', src:'sounds/EshecheMaaDurga.mp3', cat:'Mahalaya', thumb:'sounds/thumbs/EshecheMaaDurga.jpg', list:'durga'},
+  {name:'Dugga Maa Asche', artist:'All India Radio', dur:'4:08', src:'sounds/DuggaMaAsche.mp3', cat:'Mahalaya', thumb:'sounds/thumbs/DuggaMaAsche.jpg', list:'durga'},
+  {name:'Dugga maa asche', artist:'All India Radio', dur:'4:08', src:'sounds/duggamaaasche.mp3', cat:'Mahalaya', thumb:'sounds/thumbs/DuggaMaaasche.jpg', list:'durga'},
+  {name:'Dugga Maa', artist:'All India Radio', dur:'3:33', src:'sounds/DuggaMaAsche.mp3', cat:'Mahalaya', thumb:'sounds/thumbs/DuggaMaAsche.jpg', list:'durga'},
+  {name:'Dugga', artist:'All India Radio', dur:'3:17', src:'sounds/dugga.mp3', cat:'Mahalaya', thumb:'sounds/thumbs/dugga.jpg', list:'durga'},
+  {name:'Dhak Baja Khashor Baja', artist:'All India Radio', dur:'3:30', src:'sounds/dhakBajaKhashorBaja.mp3', cat:'Mahalaya', thumb:'sounds/thumbs/dhakBajaKhashorBaja.jpg', list:'durga'},
   {name:'Rupang Dehi', artist:'Traditional', dur:'4:30', src:'sounds/Rupang-Dehi.mp3', cat:'Aarti', thumb:'sounds/thumbs/Rupang-Dehi.jpg', list:'durga'},
+  {name:'Sandhya Aarti', artist:'Traditional', dur:'9:00', src:'sounds/sandhya-aarti.mp3', cat:'Aarti', thumb:'sounds/thumbs/sandhya-aarti.jpg', list:'durga'},
   {name:'Chandi Path', artist:'Birendra Krishna Bhadra', dur:'30:15', src:'sounds/chandi-path.mp3', cat:'Chandi Path', thumb:'sounds/thumbs/chandi-path.jpg', list:'mahalaya'},
+
 ];
 function renderSoundRowHTML(t){
   return `<div class="sound-row"><div class="play">▶</div><div class="meta"><strong>${t.name}</strong><span>${t.artist}</span></div><div class="dur">${t.dur}</div></div>`;
