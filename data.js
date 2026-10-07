@@ -868,6 +868,11 @@ const PHOTO_FORM_URL = '';
 const FB_PAGE_URL = '';
 const fbPosts = [
   // {url:'https://www.facebook.com/…/posts/…'},
+    `<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0Lkv9Fx5CS6qc8Aj1em2DaWAge6Nxc1969PFN99cKaQGxj6HgaCCHKZTZCUf7g1H7l%26id%3D61577470169743&show_text=true&width=500" width="500" height="770" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>`,
+  // add the next post below this line (embed code in backticks, or {url:'…'})
+  `<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02pucAicTi8U2AZBy2vK57MkcLE6XG6Y913EjAsWd5d9aHAHjPAiTZBa2B12QbhXpfl%26id%3D61550292149139&show_text=true&width=500" width="500" height="703" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>`,
+  `<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSSBbengalipujaparban%2Fposts%2Fpfbid025KwT96m4rYcnv5YvdnrPnmtMU1kHqLv3B9MMf9n1JqwSjyATcLy2ZtkJ2sY6kfhtl&show_text=true&width=500" width="500" height="666" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>`,
+
 ];
 
 const FB_HOSTS = /^https:\/\/((www|web|m)\.)?facebook\.com\/|^https:\/\/fb\.watch\//i;
